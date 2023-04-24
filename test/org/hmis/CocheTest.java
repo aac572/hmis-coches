@@ -34,7 +34,6 @@ public class CocheTest {
     @Test
     void testEquals3() {
         Coche primero = new Coche ("Renault", "Clio", 2001, 12000);
-        Coche segundo = null;
         assertEquals(primero, primero, "Los dos coches no son iguales");
     }
 
